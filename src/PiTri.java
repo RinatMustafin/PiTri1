@@ -9,7 +9,7 @@ public class PiTri {
             int N = Integer.parseInt(args[0]);
             int a = 1;
             int i = 0;
-            while (i < N && a < 1000){
+            while (i < N && a < 10000){
                 int b = 1;
                 while (i < N && b < 1000) {
                     int c = 1;
